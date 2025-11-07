@@ -57,9 +57,10 @@ User Query
    │
    ▼
 [Planning Agent] ──> [Retrieve Agent] ──> [Answering Agent] ──> [Evaluator Agent]
-       │
-       ▼
-      [END]  ← if query not relevant
+       │                                                                │
+       ▼                                                                ▼
+      [END]  ← if query not relevant                                  [END]
+       
 ```
 
 ---

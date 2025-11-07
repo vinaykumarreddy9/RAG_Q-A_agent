@@ -189,7 +189,7 @@ You will provide a score from 0 to 100, where 100 represents perfect relevance a
 - A score of 50 means the answer is on the same general topic but does not answer the specific question asked.
 - A score of 0 means the answer is about a completely different topic.
 
-Analyze the following Question and Answer.
+Analyze the following Question and Answer. you need to evaluate the response with pinpoint accuracy.
 
 ---
 **Question:**
