@@ -1,0 +1,10 @@
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+langchain-huggingface
+langgraph
+langchain-groq
+sentence-transformers
+chromadb==0.4.24
+streamlit
