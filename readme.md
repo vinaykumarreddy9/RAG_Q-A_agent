@@ -51,17 +51,12 @@ Scores the generated answer using the same LLM as an evaluator.
 
 ---
 
-### ⚡ Workflow Graph
-```
-User Query
-   │
-   ▼
-[Planning Agent] ──> [Retrieve Agent] ──> [Answering Agent] ──> [Evaluator Agent]
-       │                                                                │
-       ▼                                                                ▼
-      [END]  ← if query not relevant                                  [END]
-       
-```
+### 🧭 Agent Workflow Diagram
+
+Below is the visual representation of the LangGraph workflow showing the sequential execution of all agents:
+
+![Agent Workflow Diagram](./images/workflow.png)
+
 
 ---
 
