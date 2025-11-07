@@ -4,7 +4,8 @@ langchain-community
 langchain-experimental
 langchain-huggingface
 langgraph
+langsmith
 langchain-groq
 sentence-transformers
-chromadb==0.4.24
+chromadb
 streamlit

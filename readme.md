@@ -111,10 +111,6 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory:
 
 ```env
-LANGCHAIN_TRACING_V2=true
-LANGCHAIN_API_KEY=ls__your_langsmith_api_key_here
-LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
-LANGCHAIN_PROJECT=Renewable-Energy-QA
 GROQ_API_KEY=your_groq_api_key_here
 ```
 
@@ -175,23 +171,6 @@ Judge’s Evaluation: {"faithfulness": 5, "relevance": 5}
 
 ---
 
-## 📈 Integration with LangSmith
-
-LangSmith is automatically integrated for trace visualization and debugging.
-
-To view all requests/responses:
-
-1. Enable tracing in `.env`
-2. Run your agent
-3. Go to [https://smith.langchain.com/projects](https://smith.langchain.com/projects)
-
-You’ll see:
-- Every agent node call  
-- Prompts and model responses  
-- Timing and token usage  
-
----
-
 ## 🧰 Technologies Used
 
 | Category | Tool / Library |
@@ -202,7 +181,6 @@ You’ll see:
 | Embeddings | Hugging Face `all-MiniLM-L6-v2` |
 | UI | Streamlit |
 | Evaluation | Automated LLM-based scoring |
-| Observability | LangSmith |
 
 ---
 
@@ -211,8 +189,7 @@ You’ll see:
 ✅ Fully asynchronous agent pipeline  
 ✅ Automatic document retrieval and contextual response  
 ✅ Self-evaluation with relevance scoring  
-✅ Streamlit-based interactive frontend  
-✅ LangSmith-powered trace logging  
+✅ Streamlit-based interactive frontend    
 ✅ Reproducible ingestion and evaluation scripts
 
 ---
